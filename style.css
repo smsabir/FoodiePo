@@ -1,0 +1,41 @@
+.ing-list li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.ing-list li i {
+    color: #d6755f;
+    margin-right: 15px;
+}
+
+ul.ing-list {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+.input-group .search {
+    box-shadow: none;
+}
+
+.search-btn {
+    border: 1px solid #66b871;
+    background: #66b871;
+    color: white;
+    padding: 5px 20px;
+}
+
+input#search-input {
+    padding: 15px 15px;
+}
+
+.search-box {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}

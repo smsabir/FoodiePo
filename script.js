@@ -51,7 +51,7 @@ const showRecipeDetails = (id) => {
             fullDetails(data.meals)
             console.log(data.meals)
         })
-        .catch((error) => showErrorMsg("Loading Failed! Try Again."));
+        .catch((err) => showErrorMsg("Loading Failed! Try Again."));
 }
 
 
@@ -86,13 +86,13 @@ const fullDetails = (recipes) => {
     singleRecipe.innerHTML = fullDetailsHtml;
 }
 
-const showErrorMsg = (error) => {
+const showErrorMsg = (err) => {
 
     const showMsg = document.getElementById('show-msg');
     const allRecipe = document.getElementById('all-recpie');
 
     allRecipe.innerHTML = "";
-    const errorMsg = `<p class="text-danger text-center">${error}</p>`;
+    const errorMsg = `<p class="text-danger text-center">${err}</p>`;
     showMsg.innerHTML = errorMsg;
    
 }

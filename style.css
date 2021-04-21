@@ -4,17 +4,13 @@
 }
 
 .ing-list li i {
-    color: #d6755f;
+    color: #66b871;
     margin-right: 15px;
 }
 
 ul.ing-list {
     overflow-y: scroll;
     height: 350px;
-}
-
-.input-group .search {
-    box-shadow: none;
 }
 
 .search-btn {

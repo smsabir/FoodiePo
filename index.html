@@ -43,13 +43,11 @@
     </header>
     <main class="mb-5 pb-5">
         <div class="container">
-            <div class="input-group search-box mb-3">
-                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
-                <input id="search-input" type="text" class="form-control search" placeholder="Search your food here!" aria-label="Search" aria-describedby="basic-addon1">
-                <button onclick="handleSearch()" id="search" class="btn search-btn" type="button">Search</button>
-                <br>
+            <div class="input-group rounded search-box mb-3">
+                <input id="search-input" type="text" class="form-control search" placeholder="Search your food here!" aria-label="Search" aria-describedby="search-addon">
+                <button onclick="handleSearch()"  class="btn search-btn" type="button">Search</button>
             </div>
-            <p  id="show-msg"></p>
+            <p class="m-4 bg-light" id="show-msg"></p>
             <div id="single-recpie" class="row"></div>
             <div id="all-recpie" class="row row-cols-1 row-cols-md-4 g-4"></div>
         </div>

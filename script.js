@@ -18,7 +18,7 @@ const loadRecipes = (recipes) => {
 
     const searchString = document.getElementById('search-input');
     const showMsg = document.getElementById('show-msg');
-    const searchResultCount =  `<p class="text-secondary text-center">${recipes.length}results for "${searchString.value}" Recipe</p>`;
+    const searchResultCount =  `<p class="text-secondary text-center">${recipes.length} results for "${searchString.value}" Recipe</p>`;
     showMsg.innerHTML = searchResultCount;
 
     document.getElementById('all-recpie').innerHTML = '';
